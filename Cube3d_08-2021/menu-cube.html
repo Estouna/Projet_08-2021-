@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="menu-cube.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+        <span class="prenom">Cyril</span>
+        <span class="nom">DEPONT</span>
+
+    <section>
+    <p class="radio-group">
+        <label>
+            <input type="radio" name="rotate-cube-side" value="front" checked /> Accueil
+        </label>
+        <label>
+            <input type="radio" name="rotate-cube-side" value="right" /> Mes Skills
+        </label>
+        <label>
+            <input type="radio" name="rotate-cube-side" value="back" /> A propos de moi
+        </label>
+        <label>
+            <input type="radio" name="rotate-cube-side" value="left" /> Mes réalisations
+        </label>
+        <label>
+            <input type="radio" name="rotate-cube-side" value="top" /> Futur
+        </label>
+        <label>
+            <input type="radio" name="rotate-cube-side" value="bottom" /> Contact
+        </label>
+    </p>
+        <div id="flex-center">
+            <div class="cube-container">
+                <div class="cube">
+                    <div class="face-cube face-front">
+                        Accueil
+                    </div>
+                    <div class="face-cube face-back">
+                        A propos de moi
+                    </div>
+                    <div class="face-cube face-right">
+                        Mes Skills
+                    </div>
+                    <div class="face-cube face-left">
+                        Mes réalisations
+                    </div>
+                    <div class="face-cube face-top">
+                        Futur
+                    </div>
+                    <div class="face-cube face-bottom">
+                        Contact
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="menu-cube.js"></script>
+</body>
+
+</html>
